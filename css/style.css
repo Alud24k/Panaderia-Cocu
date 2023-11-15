@@ -7,3 +7,19 @@ body {
 main {
   flex-grow: 1;
 }
+
+.carouselProductsImg {
+  height: 258px;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .carouselProductsImg {
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px){
+  .carouselProductsImg {
+    height: 600px;
+  }
+}
