@@ -23,3 +23,9 @@ main {
     height: 600px;
   }
 }
+
+@media (max-width: 576px) {
+  .order-xs {
+    order: -1;
+  }
+}
