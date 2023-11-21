@@ -12,13 +12,17 @@ main {
   height: 258px;
 }
 
+.saboresImg {
+  filter: grayscale(0.5);
+}
+
 @media (min-width: 767px) and (max-width: 991px) {
   .carouselProductsImg {
     height: 400px;
   }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .carouselProductsImg {
     height: 600px;
   }
